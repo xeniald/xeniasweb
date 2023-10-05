@@ -1,0 +1,171 @@
+html {
+    align-content: center;
+}
+body {
+    text-align: center;
+}
+.container {
+    width: 800px;
+    height: 4350px;
+    margin: 0 auto; 
+    background-color: #ffffff; 
+    font-size: 12px;
+    margin: 0px auto;
+}
+
+/* Navegación */
+
+header {
+    background-color: rgb(33, 24, 90); 
+    padding: 20px 0; 
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; 
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 60px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'DigiGrotesk LT BoldCondensed';
+    letter-spacing: 3px;
+}
+
+
+/* Texto */
+h1 {
+    color: #1F1F1F;
+    font-family: 'DigiGrotesk LT BoldCondensed';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: bold;
+    margin: 30px 0 0; 
+    text-align: center;
+}
+
+span {
+    color: #1F1F1F;
+    font-family: 'DigiGrotesk LT BoldCondensed';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #1F1F1F;
+    font-family: 'Univers LT Std', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: bold;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #1F1F1F;
+    font-family: 'DigiGrotesk LT BoldCondensed';
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: bold;
+}
+
+h4 {
+    color: #1F1F1F;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+p {
+    color: #1F1F1F;
+    font-family: 'Univers LT Std', sans-serif;                                       
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.18px;
+    text-align: left;
+    
+}
+
+/* div */
+
+.linea {
+    border-top: 5px solid rgb(33, 24, 90); 
+    margin: 20px 5px; 
+}
+
+.info {
+    width:  700px;
+    margin: 0px auto;
+}
+
+/* Imagenes */
+
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 70%; 
+}
+
+.izquierda {
+    
+    margin: 0px auto;
+}
+
+.image-container {
+    display: flex;
+    max-width: 100%;
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+image-container div {
+    text-align: left; 
+    margin: 10px; 
+}
+
+/* footer */
+footer {
+    background-color: rgb(33, 24, 90); 
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+footer p
+{
+    text-align: center;
+    color: #fff; 
+    font-size: 12px;
+    font-family: 'DigiGrotesk LT BoldCondensed';
+    letter-spacing: 3px;
+}
