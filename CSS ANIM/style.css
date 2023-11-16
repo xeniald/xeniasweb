@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 239, 226);
+}
+
+#star {
+    width: 150px;
+    fill: rgb(251, 224, 23);
+    stroke: rgb(221, 185, 2);
+    stroke-width: 1px;
+    animation: twinkling 1s infinite alternate;
+    animation-delay: 0s;
+
+}
+
+@keyframes twinkling {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+#ribbon {
+    width: 150px;
+    fill: rgb(197, 4, 4);
+    stroke: rgb(197, 4, 4);
+    stroke-width: 1px;
+    animation-name: ribboncolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ribboncolor {
+    0%   {stroke:red; fill:red;}
+    50%  {stroke:rgb(87, 0, 128); fill:rgb(87, 0, 128);}
+    100% {stroke:blue; fill:blue;}
+  }
+
+  #ginger {
+    width: 150px;
+    fill: rgb(118, 87, 46);
+    animation-name: gingerdance;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+    transition: width 2s;
+}
+
+#ginger:hover{
+    width: 200px;
+}
+
+@keyframes gingerdance {
+    from { transform: translateX(-20%); }
+    to { transform: translateX(20%); }
+}
+
+#gift {
+    width: 150px;
+    fill: rgb(173, 212, 177);
+    stroke: rgb(31, 131, 68);
+    stroke-width: 1px;
+    transition: width 2s;
+}
+
+#gift:hover{
+    width: 200px;
+    transform: rotate(-20deg);
+}
+
+.button {
+    margin-top: 20px; /* Adjust the margin as needed */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
